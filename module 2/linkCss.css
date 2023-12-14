@@ -1,0 +1,19 @@
+
+a:link1 {
+    color: red;    
+}
+
+
+a:link2{
+    color: green;
+}
+
+
+a:link3 {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:link4 {
+    color: blue;
+}
