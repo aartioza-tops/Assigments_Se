@@ -1,8 +1,6 @@
 /*
-7. WAP to print number in reverse order 
-	e.g.: number = 64728 ---> reverse = 82746
+23. C Program to Reverse a Number Using FOR Loop
 */
-
 #include<stdio.h>
 int main(){
 	
@@ -11,12 +9,14 @@ int main(){
 	printf("\n enter your number :");
 	scanf("%d",&n);
 	
-	while(n!=0)
-	{
-    	r = n % 10;
+
+  	
+  	for(i=n;i!=0;){
+  		r = i % 10;
     	b = b * 10 + r;
-    	n /= 10;
-  	}
+    	i /= 10;
+	  }
+  	
 
   printf("Reversed number = %d", b);
 	
